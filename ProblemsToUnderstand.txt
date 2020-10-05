@@ -1,0 +1,12 @@
+PROB1- 23:28 https://www.youtube.com/watch?v=mgdMeXkviy8&fbclid=IwAR3mYk7jbF9P
+fw3os4DfSnl0s9Yl146Zjw55cQVMlFYghopKU-yM99OxnKQ
+"php artisan make:controller PostController --api"
+to make an api controller (not any regular controller)
+ANS: Use Controller to render your normal views. ApiController 
+action only return data that is serialized and sent to the client.
+
+https://app.getpostman.com/join-team?invite_code=c4f60f89bfc0079280149f4719e32adf
+
+PROB2- 33:41 why do we use attribute casting?
+ANS: to specify the type casting of that attribute in the api 
+(not in the DB, in that case, migration file's up function)
